@@ -205,3 +205,24 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# --- Added for Django + React Projects ---
+
+# React (Frontend)
+node_modules/
+build/
+
+# Django SQLite database (redundant, but safe to repeat)
+db.sqlite3
+db.sqlite3-journal
+
+# Coverage reports and local testing (already included, but good to ensure)
+htmlcov/
+coverage.xml
+*.cover
+*.py.cover
+
+# Environment variables
+.env
+
+# macOS
+.DS_Store
